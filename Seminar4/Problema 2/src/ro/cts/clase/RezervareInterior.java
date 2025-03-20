@@ -23,7 +23,7 @@ public class RezervareInterior extends AbstractRezervare{
 
     @Override
     public AbstractRezervare copiaza(int ziuaLunii) {
-        AbstractRezervare rezervare = new RezervareInterior();
+        RezervareInterior rezervare = new RezervareInterior();
         rezervare.ora = this.ora;
         rezervare.ziuaLunii = this.ziuaLunii;
         rezervare.numeClient = this.numeClient;
