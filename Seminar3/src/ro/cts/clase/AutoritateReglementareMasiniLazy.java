@@ -15,10 +15,6 @@ public class AutoritateReglementareMasiniLazy {
                 '}';
     }
 
-    private AutoritateReglementareMasiniLazy(){
-
-    }
-
     private AutoritateReglementareMasiniLazy(String nume, String website, int nrReglementari)
     {
         this.nume = nume;
